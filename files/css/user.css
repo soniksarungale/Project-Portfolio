@@ -1,0 +1,203 @@
+.container{
+  margin-top: 10px;
+}
+.layout2 #profile{
+  display: flex;
+  padding: 20px;
+}
+.layout2 #profile .user-img{
+  width: 150px;
+  height: 150px;
+}
+.layout2 #profile .user-img img{
+  width: 100%;
+  border-radius: 50%;
+}
+.layout2 #profile .user-info{
+  width: calc(100% - 300px);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  padding-left: 30px;
+  letter-spacing: 1px;
+}
+.layout2 #profile .user-fullname{
+  margin: 0px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 27px;
+}
+.layout2 #profile .edit-profile{
+  width: 150px;
+  text-align: right;
+}
+.layout1 .layout-holder{
+  display: flex;
+}
+.layout1 #profile{
+  width: 320px;
+  padding: 20px;
+}
+.layout1 #profile .user-img{
+  width: 280px;
+}
+.layout1 #profile .user-img img{
+  width: 100%;
+  height: 280px;
+  border-radius: 50%;
+}
+.layout1 .user-details .user-info{
+  display: flex;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.layout1 .user-details .user-info .icon{
+  display: flex;
+  align-items: center;
+  width: 22px;
+}
+.layout1 .user-details .info-input input,.layout1 .user-details .info-input textarea{
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #c6c6c6;
+  padding: 5px 12px;
+  color: #24292e;
+  width: 100%;
+}
+.layout1 .user-details .info-input textarea{
+  padding: 8px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.layout1 .user-details .user-name-info input{
+  font-size: 24px;
+  padding: 6px 14px;
+}
+.layout1 .user-details .user-name-info h2{
+  font-size: 26px;
+  margin: 0px;
+}
+#userview .user-details .user-link-info{
+  color: #666;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+.layout1 .user-details .user-link-info .info{
+  font-size: 16px;
+  color: #666;
+}
+.layout1 .user-details .user-link-info input{
+  padding: 4px 10px;
+}
+.layout1 .user-details .user-link-info .domain{
+  padding: 5px 0px;
+}
+.user-details .error-warning{
+  margin-top: 10px;
+}
+.layout1 .user-details .user-info .icon{
+color: #6a737d;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+#application-main{
+  width: calc(100% - 320px);
+  height: 100%;
+}
+.section-box{
+  border: 1px solid #c6c6c6;
+  position: relative;
+  border-radius: 6px;
+  padding: 20px;
+}
+.section-box .section-heading{
+  position: absolute;
+  top: -10px;
+  background-color: #fff;
+  margin: 0px;
+  padding: 0px 10px;
+}
+.section-box .content{
+  padding: 10px;
+}
+.newproject{
+  text-align: center;
+  padding: 20px 0px;
+}
+.newproject .newproject-text{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.newproject-btn{
+  text-align: right;
+  margin-bottom: 20px;
+}
+.display-skills .skills-heading h3{
+  border-bottom: 1px solid rgba(0,0,0,.15);
+  padding-bottom: 8px !important;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0px;
+  margin-top: 10px;
+  color: rgba(0,0,0,.6);
+}
+.display-skills .skill-category-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+padding: 0;
+border: 0;
+}
+.display-skills .skill-category-list .skill-list{
+  flex-basis: 360px;
+  max-width: 360px;
+  color: rgba(0,0,0,.9);
+  font-size: 100%;
+  line-height: 1.5;
+  list-style: none;
+  word-wrap: break-word;
+  padding-top: 16px;
+}
+.skills-box{
+  margin-bottom: 30px;
+  margin-top: 20px;
+}

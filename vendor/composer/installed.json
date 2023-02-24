@@ -1,0 +1,276 @@
+[
+    {
+        "name": "gumlet/php-image-resize",
+        "version": "1.9.2",
+        "version_normalized": "1.9.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/gumlet/php-image-resize.git",
+            "reference": "06339a9c1b167acd58173db226f57957a6617547"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/gumlet/php-image-resize/zipball/06339a9c1b167acd58173db226f57957a6617547",
+            "reference": "06339a9c1b167acd58173db226f57957a6617547",
+            "shasum": ""
+        },
+        "require": {
+            "ext-fileinfo": "*",
+            "ext-gd": "*",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "apigen/apigen": "^4.1",
+            "ext-exif": "*",
+            "ext-gd": "*",
+            "php-coveralls/php-coveralls": "^2.1",
+            "phpunit/phpunit": "^4.8"
+        },
+        "suggest": {
+            "ext-exif": "Auto-rotate jpeg files"
+        },
+        "time": "2019-01-01T13:53:00+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Gumlet\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Aditya Patadia",
+                "homepage": "http://aditya.patadia.org/"
+            }
+        ],
+        "description": "PHP class to re-size and scale images",
+        "homepage": "https://github.com/gumlet/php-image-resize",
+        "keywords": [
+            "image",
+            "php",
+            "resize",
+            "scale"
+        ]
+    },
+    {
+        "name": "klein/klein",
+        "version": "v2.1.2",
+        "version_normalized": "2.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/klein/klein.php.git",
+            "reference": "6549676cc831b9417332b3d9485c64bbf7bac728"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/klein/klein.php/zipball/6549676cc831b9417332b3d9485c64bbf7bac728",
+            "reference": "6549676cc831b9417332b3d9485c64bbf7bac728",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/php-code-coverage": "^2.2",
+            "phpunit/phpunit": "^4.8",
+            "squizlabs/php_codesniffer": "1.4.8"
+        },
+        "time": "2017-02-01T23:08:58+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Klein\\": "src/Klein/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Chris O'Hara",
+                "email": "cohara87@gmail.com",
+                "homepage": "http://chris6f.com/",
+                "role": "Creator/Developer"
+            },
+            {
+                "name": "Trevor Suarez",
+                "email": "rican7@gmail.com",
+                "homepage": "https://trevorsuarez.com/",
+                "role": "Contributor/Developer"
+            }
+        ],
+        "description": "A lightning fast router for PHP",
+        "homepage": "https://github.com/klein/klein.php",
+        "keywords": [
+            "boilerplate",
+            "router",
+            "routing",
+            "sinatra"
+        ]
+    },
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "v6.1.7",
+        "version_normalized": "6.1.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "2c2370ba3df7034f9eb7b8f387c97b52b2ba5ad0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/2c2370ba3df7034f9eb7b8f387c97b52b2ba5ad0",
+            "reference": "2c2370ba3df7034f9eb7b8f387c97b52b2ba5ad0",
+            "shasum": ""
+        },
+        "require": {
+            "ext-ctype": "*",
+            "ext-filter": "*",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "doctrine/annotations": "^1.2",
+            "friendsofphp/php-cs-fixer": "^2.2",
+            "phpunit/phpunit": "^4.8 || ^5.7"
+        },
+        "suggest": {
+            "ext-mbstring": "Needed to send email in multibyte encoding charset",
+            "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+            "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+            "psr/log": "For optional PSR-3 debug logging",
+            "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
+            "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+        },
+        "time": "2020-07-14T18:50:27+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PHPMailer\\PHPMailer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1-only"
+        ],
+        "authors": [
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    },
+    {
+        "name": "wapmorgan/unified-archive",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wapmorgan/UnifiedArchive.git",
+            "reference": "74677318c376051fc695a3ab787e4471c00dce0f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wapmorgan/UnifiedArchive/zipball/74677318c376051fc695a3ab787e4471c00dce0f",
+            "reference": "74677318c376051fc695a3ab787e4471c00dce0f",
+            "shasum": ""
+        },
+        "require": {
+            "ext-fileinfo": "*",
+            "php": ">=5.5.0"
+        },
+        "replace": {
+            "wapmorgan/cam": "1.0.2"
+        },
+        "require-dev": {
+            "docopt/docopt": "~1.0",
+            "phpunit/phpunit": "~4.8"
+        },
+        "suggest": {
+            "bin-ncompress": "TAR.Z support",
+            "docopt/docopt": "Requirement for cam (Console Archive Manager)",
+            "ext-bz2": "BZ2 and TAR.BZ2 support",
+            "ext-phar": "TAR support",
+            "ext-rar": "RAR support",
+            "ext-xz": "XZ and TAR.XZ support",
+            "ext-zip": "ZIP support",
+            "ext-zlib": "GZ and TAR.GZ support",
+            "gemorroj/archive7z": "7ZIP support",
+            "pear/archive_tar": "another TAR support",
+            "phpclasses/php-iso-file": "ISO support",
+            "wapmorgan/cab-archive": "CAB support"
+        },
+        "time": "2020-06-13T19:42:51+00:00",
+        "bin": [
+            "bin/cam"
+        ],
+        "type": "library",
+        "extra": {
+            "phar-builder": {
+                "compression": "BZip2",
+                "name": "cam.phar",
+                "output-dir": "./",
+                "entry-point": "bin/cam",
+                "include": [
+                    "bin",
+                    "src",
+                    "vendor"
+                ],
+                "events": {
+                    "command.package.start": "git describe --tags > bin/version.txt",
+                    "command.package.end": "chmod +x cam.phar && rm bin/version.txt"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "wapmorgan\\UnifiedArchive\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "wapmorgan",
+                "email": "wapmorgan@gmail.com",
+                "role": "developer"
+            }
+        ],
+        "description": "UnifiedArchive - unified interface to all popular archive formats (zip, 7z, rar, gz, bz2, xz, cab, tar, tar.gz, tar.bz2, tar.xz, tar.Z, iso) for listing, reading, extracting and creation + built-in console archive manager + PclZip-like interface for zip archives.",
+        "keywords": [
+            "7z",
+            "archive",
+            "bzip2",
+            "cab",
+            "compression",
+            "gzip",
+            "iso",
+            "lzma2",
+            "ncompress",
+            "rar",
+            "tar",
+            "zip"
+        ]
+    }
+]

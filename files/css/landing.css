@@ -1,0 +1,136 @@
+#landing {
+	 position: relative;
+	 display: flex;
+	 height: 100vh;
+	 padding: 0px;
+}
+ #landing .landing-text {
+	 width: 50%;
+	 height: 100%;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
+ #landing .landing-text .text-holder {
+	 width: 90%;
+	 letter-spacing: 1px;
+}
+ #landing .landing-text .text-holder h1 {
+   font-weight: 700;
+	 font-size: 2.5rem;
+   margin-bottom: 5px;
+   letter-spacing: 0px;
+}
+ #landing .landing-text .text-holder p {
+	 line-height: 30px;
+	 margin-bottom: 30px;
+}
+ #landing .landing-text .text-holder a {
+	 text-decoration: none;
+	 color: #fff;
+   background: #00828c;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to left, #00828c, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to left, #00828c, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	 padding: 15px 20px;
+	 border-radius: 50px;
+}
+ #landing .landing-forms {
+	 width: 50%;
+	 height: 100%;
+   background-color: #00828c;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#landing .form {
+	 position: relative;
+	 margin: 20px 0px;
+	 width: 90%;
+	 max-width: 480px;
+	 text-align: center;
+	 background: #fff;
+	 padding: 43px 40px;
+	 border-radius: 4px;
+}
+ #landing .form .heading {
+	 color: #000;
+	 font-size: 25px;
+	 margin: 0px 0 0px;
+	 height: 30px;
+	 line-height: 30px;
+	 text-align: center;
+}
+ #landing .form .login-form {
+	 display: none;
+}
+ #landing .form .input {
+	 width: 100%;
+	 padding: 15px;
+	 background: #f8f8f8;
+	 border: 1px solid rgba(0, 0, 0, 0.075);
+	 margin-bottom: 25px;
+	 color: black !important;
+	 font-size: 13px;
+	 -webkit-transition: all 0.4s;
+	 -moz-transition: all 0.4s;
+	 -o-transition: all 0.4s;
+	 transition: all 0.4s;
+	 font-size: 17px;
+	 letter-spacing: 2px;
+}
+ #landing .form .input:focus {
+	 color: white;
+	 outline: none;
+	 border: 1px solid #8bc3a3;
+}
+ #landing .form .submit {
+	 width: 100%;
+	 padding: 0 20px;
+	 line-height: 50px;
+	 background: #1ebbf0;
+	 color: #fff;
+	 text-transform: uppercase;
+	 letter-spacing: 2px;
+	 font-weight: 700;
+	 text-align: center;
+	 border: none;
+	 cursor: pointer;
+	 font-size: 17px;
+}
+ #landing .form .submit:hover {
+	 background-color: #1a9dc9;
+}
+#landing .form .input-box {
+	 margin-top: 20px;
+}
+#landing .form .signup-form #cemail{
+	 margin-top: 20px;
+}
+#landing .form .login-form #lemail{
+	 margin-top: 20px;
+}
+ #landing .form .togglebtn {
+	 color: blue;
+	 background-color: transparent;
+	 border: none;
+	 outline: none;
+	 cursor: pointer;
+	 font-weight: 600;
+}
+}
+ #landing ::-webkit-input-placeholder {
+	 color: black;
+	 font-size: 17px;
+}
+ #landing :-moz-placeholder {
+	 color: black;
+	 font-size: 17px;
+}
+ #landing ::-moz-placeholder {
+	 color: black;
+	 font-size: 17px;
+}
+ #landing :-ms-input-placeholder {
+	 color: black;
+	 font-size: 17px;
+}
